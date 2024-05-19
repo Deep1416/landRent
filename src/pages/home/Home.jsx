@@ -5,7 +5,6 @@ const Home = () => {
   const [data, setData] = useState(Data.Data);
   const [originalData] = useState(Data.Data);
   const [userInput, setUserInput] = useState("");
-  
 
   const searchByName = () => {
     if (userInput) {
@@ -22,16 +21,21 @@ const Home = () => {
     searchByName();
   }, [userInput]);
 
-
-
   return (
-    <div className="max-w-screen-lg m-auto">
-      <SearchProperties setUserInput={setUserInput} data= {data} setData ={setData} originalData = {originalData} />
-      <div className="grid grid-cols-3 gap-8 mt-10">
+    <div className="bg-[#f8f7fd] pt-8">
+      <div className="max-w-screen-lg m-auto">
+      <SearchProperties
+        setUserInput={setUserInput}
+        data={data}
+        setData={setData}
+        originalData={originalData}
+      />
+      <div className="md:grid grid-cols-3 gap-8 mt-10  ">
         {data.map((item) => {
           return <Card item={item} key={item.id} />;
         })}
       </div>
+    </div>
     </div>
   );
 };

@@ -1,12 +1,12 @@
 {
-  "Data":[
+  "Data": [
     {
       "id": 1,
       "city": "Sydney",
-      "image": "https://images.pexels.com/photos/259957/pexels-photo-259957.jpeg",
+      "image": "https://images.pexels.com/photos/259957/pexels-photo-259957.jpeg?w=250",
       "price": 1200000,
       "houseName": "Harbour View",
-      "date": "2024-05-30",
+      "date": "2024-05-22",
       "propertyType": "Detached",
       "address": "123 Sydney St, Sydney, NSW 2000",
       "numberOfBeds": 4,
@@ -20,12 +20,12 @@
     {
       "id": 2,
       "city": "Melbourne",
-      "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg",
+      "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?w=250",
       "price": 950000,
       "houseName": "Garden House",
-      "date": "2024-01-05",
+      "date": "2024-05-25",
       "propertyType": "Semi-detached",
-      "address": "456 Melbourne Rd, Melbourne",
+      "address": "456 Melbourne Rd, Melbourne, VIC 3000",
       "numberOfBeds": 3,
       "numberOfBaths": 2,
       "roomDimensions": {
@@ -37,10 +37,10 @@
     {
       "id": 3,
       "city": "Brisbane",
-      "image": "https://images.pexels.com/photos/323774/pexels-photo-323774.jpeg",
-      "price": 800000,
+      "image": "https://images.pexels.com/photos/323774/pexels-photo-323774.jpeg?w=250",
+      "price": 1500000,
       "houseName": "Riverfront",
-      "date": "2024-01-10",
+      "date": "2024-05-24",
       "propertyType": "Apartment",
       "address": "789 Brisbane Blvd, Brisbane, QLD 4000",
       "numberOfBeds": 2,
@@ -54,10 +54,10 @@
     {
       "id": 4,
       "city": "Perth",
-      "image": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
-      "price": 700000,
+      "image": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?w=250",
+      "price": 400000,
       "houseName": "Sunset Villa",
-      "date": "2024-01-15",
+      "date": "2024-05-27",
       "propertyType": "Detached",
       "address": "123 Perth Rd, Perth, WA 6000",
       "numberOfBeds": 4,
@@ -67,13 +67,14 @@
         "masterBedroom": "5x6",
         "kitchen": "4x5"
       }
-    }, {
+    },
+    {
       "id": 5,
       "city": "Adelaide",
-      "image": "https://images.pexels.com/photos/207923/pexels-photo-207923.jpeg",
+      "image": "https://images.unsplash.com/photo-1532695658265-5e9be3ea2b7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTN8MjMwMzE1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
       "price": 650000,
       "houseName": "Parkside",
-      "date": "2024-01-20",
+      "date": "2024-05-29",
       "propertyType": "Townhouse",
       "address": "456 Adelaide Ave, Adelaide, SA 5000",
       "numberOfBeds": 3,
@@ -87,10 +88,10 @@
     {
       "id": 6,
       "city": "Canberra",
-      "image": "https://images.pexels.com/photos/1643389/pexels-photo-1643389.jpeg",
+      "image": "https://images.pexels.com/photos/1643389/pexels-photo-1643389.jpeg?w=250",
       "price": 750000,
       "houseName": "Capital Residence",
-      "date": "2024-01-25",
+      "date": "2024-06-25",
       "propertyType": "Detached",
       "address": "789 Canberra St, Canberra, ACT 2600",
       "numberOfBeds": 4,
@@ -100,11 +101,603 @@
         "masterBedroom": "5x6",
         "kitchen": "4x5"
       }
+    },
+    {
+      "id": 7,
+      "city": "Sydney",
+      "image": "https://images.pexels.com/photos/208736/pexels-photo-208736.jpeg?w=250",
+      "price": 1300000,
+      "houseName": "Seaside Retreat",
+      "date": "2024-06-26",
+      "propertyType": "Detached",
+      "address": "123 Seaside St, Sydney, NSW 2000",
+      "numberOfBeds": 3,
+      "numberOfBaths": 2,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 8,
+      "city": "Melbourne",
+      "image": "https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?w=250",
+      "price": 1200000,
+      "houseName": "Urban Escape",
+      "date": "2024-06-27",
+      "propertyType": "Townhouse",
+      "address": "456 Urban Rd, Melbourne, VIC 3000",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "5x7",
+        "masterBedroom": "4x5",
+        "kitchen": "3x4"
+      }
+    },
+    {
+      "id": 9,
+      "city": "Brisbane",
+      "image": "https://images.pexels.com/photos/259602/pexels-photo-259602.jpeg?w=250",
+      "price": 1800000,
+      "houseName": "River View",
+      "date": "2024-06-28",
+      "propertyType": "Apartment",
+      "address": "789 River Rd, Brisbane, QLD 4000",
+      "numberOfBeds": 2,
+      "numberOfBaths": 1,
+      "roomDimensions": {
+        "livingRoom": "4x5",
+        "masterBedroom": "3x4",
+        "kitchen": "3x3"
+      }
+    },
+    {
+      "id": 10,
+      "city": "Perth",
+      "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?w=250",
+      "price": 1500000,
+      "houseName": "Coastal Home",
+      "date": "2024-06-29",
+      "propertyType": "Detached",
+      "address": "123 Coastal Rd, Perth, WA 6000",
+      "numberOfBeds": 3,
+      "numberOfBaths": 2,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 11,
+      "city": "Adelaide",
+      "image": "https://images.unsplash.com/photo-1537269700156-2fb9dfb6fdd0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8MjMwMzE1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 600000,
+      "houseName": "Parkview",
+      "date": "2024-07-01",
+      "propertyType": "Townhouse",
+      "address": "456 Parkview Ave, Adelaide, SA 5000",
+      "numberOfBeds": 3,
+      "numberOfBaths": 2,
+      "roomDimensions": {
+        "livingRoom": "5x7",
+        "masterBedroom": "4x5",
+        "kitchen": "3x4"
+      }
+    },
+    {
+      "id": 12,
+      "city": "Canberra",
+      "image": "https://images.unsplash.com/photo-1534986145647-1c8483859a9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTF8MjMwMzE1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 800000,
+      "houseName": "Hilltop Mansion",
+      "date": "2024-07-02",
+      "propertyType": "Detached",
+      "address": "789 Hilltop St, Canberra, ACT 2600",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 13,
+      "city": "Sydney",
+      "image": "https://images.pexels.com/photos/1643388/pexels-photo-1643388.jpeg?w=250",
+      "price": 1200000,
+      "houseName": "Ocean Breeze",
+      "date": "2024-07-03",
+      "propertyType": "Detached",
+      "address": "123 Ocean St, Sydney, NSW 2000",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 14,
+      "city": "Melbourne",
+      "image": "https://images.pexels.com/photos/259957/pexels-photo-259957.jpeg?w=250",
+      "price": 1000000,
+      "houseName": "Lakeside Cottage",
+      "date": "2024-07-04",
+      "propertyType": "Semi-detached",
+      "address": "456 Lakeside Rd, Melbourne, VIC 3000",
+      "numberOfBeds": 3,
+      "numberOfBaths": 2,
+      "roomDimensions": {
+        "livingRoom": "5x7",
+        "masterBedroom": "4x5",
+        "kitchen": "3x4"
+      }
+    },
+    {
+      "id": 15,
+      "city": "Brisbane",
+      "image": "https://images.unsplash.com/photo-1544642182-a3ae27c6b1a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjF8MjMwMzE1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 900000,
+      "houseName": "City Lights",
+      "date": "2024-07-05",
+      "propertyType": "Apartment",
+      "address": "789 City Rd, Brisbane, QLD 4000",
+      "numberOfBeds": 2,
+      "numberOfBaths": 1,
+      "roomDimensions": {
+        "livingRoom": "4x5",
+        "masterBedroom": "3x4",
+        "kitchen": "3x3"
+      }
+    },
+    {
+      "id": 16,
+      "city": "Perth",
+      "image": "https://images.unsplash.com/photo-1440008357880-02f945e874a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NjB8MjMwMzE1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 700000,
+      "houseName": "Forest Retreat",
+      "date": "2024-07-06",
+      "propertyType": "Detached",
+      "address": "123 Forest Rd, Perth, WA 6000",
+      "numberOfBeds": 3,
+      "numberOfBaths": 2,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 17,
+      "city": "Adelaide",
+      "image": "https://images.pexels.com/photos/208736/pexels-photo-208736.jpeg?w=250",
+      "price": 1500000,
+      "houseName": "Hillview Villa",
+      "date": "2024-07-07",
+      "propertyType": "Townhouse",
+      "address": "456 Hillview Ave, Adelaide, SA 5000",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "5x7",
+        "masterBedroom": "4x5",
+        "kitchen": "3x4"
+      }
+    },
+    {
+      "id": 18,
+      "city": "Canberra",
+      "image": "https://images.unsplash.com/photo-1445862820545-4958477d42d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDd8MjMwMzE1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 2000000,
+      "houseName": "Skyline House",
+      "date": "2024-07-08",
+      "propertyType": "Detached",
+      "address": "789 Skyline Rd, Canberra, ACT 2600",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 19,
+      "city": "Sydney",
+      "image": "https://images.pexels.com/photos/262405/pexels-photo-262405.jpeg?w=250",
+      "price": 1400000,
+      "houseName": "Mountain View",
+      "date": "2024-07-09",
+      "propertyType": "Detached",
+      "address": "123 Mountain St, Sydney, NSW 2000",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 20,
+      "city": "Melbourne",
+      "image": "https://images.pexels.com/photos/259601/pexels-photo-259601.jpeg?w=250",
+      "price": 1500000,
+      "houseName": "City Center",
+      "date": "2024-07-10",
+      "propertyType": "Townhouse",
+      "address": "456 City Center Rd, Melbourne, VIC 3000",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "5x7",
+        "masterBedroom": "4x5",
+        "kitchen": "3x4"
+      }
+    },
+    {
+      "id": 21,
+      "city": "Brisbane",
+      "image": "https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg?w=250",
+      "price": 1200000,
+      "houseName": "Beachfront",
+      "date": "2024-07-11",
+      "propertyType": "Apartment",
+      "address": "789 Beachfront Rd, Brisbane, QLD 4000",
+      "numberOfBeds": 2,
+      "numberOfBaths": 1,
+      "roomDimensions": {
+        "livingRoom": "4x5",
+        "masterBedroom": "3x4",
+        "kitchen": "3x3"
+      }
+    },
+    {
+      "id": 22,
+      "city": "Perth",
+      "image": "https://images.pexels.com/photos/1643401/pexels-photo-1643401.jpeg?w=250",
+      "price": 1000000,
+      "houseName": "Countryside Cottage",
+      "date": "2024-07-12",
+      "propertyType": "Detached",
+      "address": "123 Countryside Rd, Perth, WA 6000",
+      "numberOfBeds": 3,
+      "numberOfBaths": 2,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 23,
+      "city": "Adelaide",
+      "image": "https://images.pexels.com/photos/259963/pexels-photo-259963.jpeg?w=250",
+      "price": 1700000,
+      "houseName": "Modern Loft",
+      "date": "2024-07-13",
+      "propertyType": "Townhouse",
+      "address": "456 Modern Rd, Adelaide, SA 5000",
+      "numberOfBeds": 3,
+      "numberOfBaths": 2,
+      "roomDimensions": {
+        "livingRoom": "5x7",
+        "masterBedroom": "4x5",
+        "kitchen": "3x4"
+      }
+    },
+    {
+      "id": 24,
+      "city": "Canberra",
+      "image": "https://images.pexels.com/photos/1643389/pexels-photo-1643389.jpeg?w=250",
+      "price": 1800000,
+      "houseName": "Sunset Bungalow",
+      "date": "2024-07-14",
+      "propertyType": "Detached",
+      "address": "789 Sunset Rd, Canberra, ACT 2600",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 25,
+      "city": "Sydney",
+      "image": "https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?w=250",
+      "price": 1500000,
+      "houseName": "Lakeside Retreat",
+      "date": "2024-07-15",
+      "propertyType": "Detached",
+      "address": "123 Lakeside Rd, Sydney, NSW 2000",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 26,
+      "city": "Melbourne",
+      "image": "https://images.pexels.com/photos/259957/pexels-photo-259957.jpeg?w=250",
+      "price": 1300000,
+      "houseName": "Urban House",
+      "date": "2024-07-16",
+      "propertyType": "Semi-detached",
+      "address": "456 Urban Rd, Melbourne, VIC 3000",
+      "numberOfBeds": 3,
+      "numberOfBaths": 2,
+      "roomDimensions": {
+        "livingRoom": "5x7",
+        "masterBedroom": "4x5",
+        "kitchen": "3x4"
+      }
+    },
+    {
+      "id": 27,
+      "city": "Brisbane",
+      "image": "https://images.unsplash.com/photo-1535083515570-0d05632e9e2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDh8MjMwMzE1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 1400000,
+      "houseName": "Skyview Apartment",
+      "date": "2024-07-17",
+      "propertyType": "Apartment",
+      "address": "789 Skyview Rd, Brisbane, QLD 4000",
+      "numberOfBeds": 2,
+      "numberOfBaths": 1,
+      "roomDimensions": {
+        "livingRoom": "4x5",
+        "masterBedroom": "3x4",
+        "kitchen": "3x3"
+      }
+    },
+    {
+      "id": 28,
+      "city": "Perth",
+      "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?w=250",
+      "price": 1200000,
+      "houseName": "Countryside House",
+      "date": "2024-07-18",
+      "propertyType": "Detached",
+      "address": "123 Countryside Rd, Perth, WA 6000",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 29,
+      "city": "Adelaide",
+      "image": "https://images.unsplash.com/photo-1520636962706-211a957407f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDN8MjMwMzE1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 1600000,
+      "houseName": "Modern Villa",
+      "date": "2024-07-19",
+      "propertyType": "Townhouse",
+      "address": "456 Modern Rd, Adelaide, SA 5000",
+      "numberOfBeds": 3,
+      "numberOfBaths": 2,
+      "roomDimensions": {
+        "livingRoom": "5x7",
+        "masterBedroom": "4x5",
+        "kitchen": "3x4"
+      }
+    },
+    {
+      "id": 30,
+      "city": "Canberra",
+      "image": "https://images.pexels.com/photos/1643388/pexels-photo-1643388.jpeg?w=250",
+      "price": 1700000,
+      "houseName": "Sunset Villa",
+      "date": "2024-07-20",
+      "propertyType": "Detached",
+      "address": "789 Sunset Rd, Canberra, ACT 2600",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 31,
+      "city": "Sydney",
+      "image": "https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg?w=250",
+      "price": 1600000,
+      "houseName": "Lakeside House",
+      "date": "2024-07-21",
+      "propertyType": "Detached",
+      "address": "123 Lakeside Rd, Sydney, NSW 2000",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 32,
+      "city": "Melbourne",
+      "image": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?w=250",
+      "price": 1300000,
+      "houseName": "Urban Loft",
+      "date": "2024-07-22",
+      "propertyType": "Semi-detached",
+      "address": "456 Urban Rd, Melbourne, VIC 3000",
+      "numberOfBeds": 3,
+      "numberOfBaths": 2,
+      "roomDimensions": {
+        "livingRoom": "5x7",
+        "masterBedroom": "4x5",
+        "kitchen": "3x4"
+      }
+    },
+    {
+      "id": 33,
+      "city": "Brisbane",
+      "image": "https://images.unsplash.com/photo-1518110812609-7db0925e795b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDF8MjMwMzE1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 1500000,
+      "houseName": "Skyline Residence",
+      "date": "2024-07-23",
+      "propertyType": "Apartment",
+      "address": "789 Skyline Rd, Brisbane, QLD 4000",
+      "numberOfBeds": 2,
+      "numberOfBaths": 1,
+      "roomDimensions": {
+        "livingRoom": "4x5",
+        "masterBedroom": "3x4",
+        "kitchen": "3x3"
+      }
+    },
+    {
+      "id": 34,
+      "city": "Perth",
+      "image": "https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg?w=250",
+      "price": 1700000,
+      "houseName": "Coastal Cottage",
+      "date": "2024-07-24",
+      "propertyType": "Detached",
+      "address": "123 Coastal Rd, Perth, WA 6000",
+      "numberOfBeds": 3,
+      "numberOfBaths": 2,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 35,
+      "city": "Adelaide",
+      "image": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?w=250",
+      "price": 1800000,
+      "houseName": "Mountain Cottage",
+      "date": "2024-07-25",
+      "propertyType": "Townhouse",
+      "address": "456 Mountain Rd, Adelaide, SA 5000",
+      "numberOfBeds": 3,
+      "numberOfBaths": 2,
+      "roomDimensions": {
+        "livingRoom": "5x7",
+        "masterBedroom": "4x5",
+        "kitchen": "3x4"
+      }
+    },
+    {
+      "id": 36,
+      "city": "Canberra",
+      "image": "https://images.unsplash.com/photo-1516562618495-ad1ff1a273f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDB8MjMwMzE1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 1900000,
+      "houseName": "Sunset House",
+      "date": "2024-07-26",
+      "propertyType": "Detached",
+      "address": "789 Sunset Rd, Canberra, ACT 2600",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 37,
+      "city": "Sydney",
+      "image": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?w=250",
+      "price": 2700000,
+      "houseName": "Lakeside Cottage",
+      "date": "2024-07-27",
+      "propertyType": "Detached",
+      "address": "123 Lakeside Rd, Sydney, NSW 2000",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 38,
+      "city": "Melbourne",
+      "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?w=250",
+      "price": 2100000,
+      "houseName": "Urban Villa",
+      "date": "2024-07-28",
+      "propertyType": "Semi-detached",
+      "address": "456 Urban Rd, Melbourne, VIC 3000",
+      "numberOfBeds": 3,
+      "numberOfBaths": 2,
+      "roomDimensions": {
+        "livingRoom": "5x7",
+        "masterBedroom": "4x5",
+        "kitchen": "3x4"
+      }
+    },
+    {
+      "id": 39,
+      "city": "Brisbane",
+      "image": "https://images.unsplash.com/photo-1493183181075-439888fc4176?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mzd8MjMwMzE1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 2200000,
+      "houseName": "Skyline Cottage",
+      "date": "2024-07-29",
+      "propertyType": "Apartment",
+      "address": "789 Skyline Rd, Brisbane, QLD 4000",
+      "numberOfBeds": 2,
+      "numberOfBaths": 1,
+      "roomDimensions": {
+        "livingRoom": "4x5",
+        "masterBedroom": "3x4",
+        "kitchen": "3x3"
+      }
+    },
+    {
+      "id": 40,
+      "city": "Perth",
+      "image": "https://images.unsplash.com/photo-1533797076203-b28b354d8a31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzF8MjMwMzE1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 2300000,
+      "houseName": "Forest House",
+      "date": "2024-07-30",
+      "propertyType": "Detached",
+      "address": "123 Forest Rd, Perth, WA 6000",
+      "numberOfBeds": 4,
+      "numberOfBaths": 3,
+      "roomDimensions": {
+        "livingRoom": "6x8",
+        "masterBedroom": "5x6",
+        "kitchen": "4x5"
+      }
+    },
+    {
+      "id": 41,
+      "city": "Adelaide",
+      "image": "https://images.unsplash.com/photo-1492963443008-9620224fd682?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzB8MjMwMzE1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 2400000,
+      "houseName": "Hilltop Villa",
+      "date": "2024-07-31",
+      "propertyType": "Townhouse",
+      "address": "456 Hilltop Rd, Adelaide, SA 5000",
+      "numberOfBeds": 3,
+      "numberOfBaths": 2,
+      "roomDimensions": {
+        "livingRoom": "5x7",
+        "masterBedroom": "4x5",
+        "kitchen": "3x4"
+      }
     }
-    
-     
-    
   ]
-    
-  
 }
+   
+     
