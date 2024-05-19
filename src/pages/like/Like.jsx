@@ -9,7 +9,7 @@ const Like = () => {
       <div className="md:grid grid-cols-3 gap-8 mt-10  ">
         {like.length > 0 ? like.map((item) => {
           return <Card item={item} key={item.id} />;
-        }) : <h2>No Data Found</h2>}
+        }) : <h2 className="text-center text-4xl ">Not Any Faviortie Added</h2>}
       </div>
     </div>
   );
